@@ -1,0 +1,7 @@
+GET http://localhost:5199/api/values/Calculate1
+
+GET http://localhost:5199/api/values/Calculate2
+
+GET http://localhost:5199/api/values/hello
+
+GET http://localhost:5199/api/values/merhaba
