@@ -28,3 +28,4 @@
 /home/basar/RiderProjects/MyMicroservice/obj/Debug/net8.0/MyMicroservice.pdb
 /home/basar/RiderProjects/MyMicroservice/obj/Debug/net8.0/MyMicroservice.genruntimeconfig.cache
 /home/basar/RiderProjects/MyMicroservice/obj/Debug/net8.0/ref/MyMicroservice.dll
+/home/basar/RiderProjects/MyMicroservice/obj/Debug/net8.0/MyMicroservice.sourcelink.json
