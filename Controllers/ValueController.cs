@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using MyMicroservice.Models;
+using MyMicroservice.Dtos;
 
 namespace MyMicroservice.Controllers;
 
@@ -34,7 +36,7 @@ public sealed class ValueController : ControllerBase
     [HttpGet]
     public IActionResult Hello()
     {
-        return Ok(new { message = "Hello World" });
+        return Ok("Hello World");
     }
 
     [HttpGet]
@@ -55,15 +57,4 @@ public sealed class ValueController : ControllerBase
         return Ok(new { message = "Product's name is " + request.ProductName + 
                                   " and price is " + request.ProductPrice });
     }
-}
-
-public class Product
-{
-    public string Name { get; set; } = string.Empty;
-}
-
-public class CreateProductDto
-{
-    public string ProductName { get; set; } = string.Empty;
-    public int ProductPrice { get; set; } = 0;
 }
